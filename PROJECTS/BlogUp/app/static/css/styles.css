@@ -1,20 +1,44 @@
 body{
-    background-color: yellow;
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
 
+}
+posty{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
 }
 
 form{
-    margin-top: 70vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
 }
 
 input{
-    margin: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
 }
 
 input[type='submit']{
 
-    background-color: red;
-    margin-top: 5vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
 
 
 }
