@@ -8,11 +8,11 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h1>Home</h1>
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.body }}</p>
-        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">{{post.title}}</div>
+            <div class="panel-body">{{post.post}}</div>
+            <div class="panel-footer">{{post.author}}</div>
+          </div>
     </div>
 
     {% endfor %}
